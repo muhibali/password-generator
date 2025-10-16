@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background: #1A1F2B;
+    font-family: "Inter", sans-serif;
+}
+
+#main-title {
+    margin: 60px auto auto 30px;
+}
+
+#first-title, #second-title {
+    margin: 0;
+    font-weight: 800;
+}
+
+#first-title {
+    color: white;
+}
+
+#second-title {
+    color: #7AE582;
+}
+
+#description {
+    color: #C9D1D9;
+    font-weight: 300;
+}
+
+.btn {
+    background: #0ED089;
+    color: white;
+    padding: 10px 15px;
+    margin: 30px auto auto 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+}
+
+hr {
+    margin: 30px;
+    border: none;
+    height: 2px;
+    background-color: #283042;
+}
+
+#password-section {
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+#first-pass, #second-pass {
+    background: #283042;
+    color: #7AE582;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 50%;
+    height: 15px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px
+}
